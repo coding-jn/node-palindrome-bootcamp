@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+div {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+div input {
+  width: 30%;
+  height: 10vh;
+}
+
+div button {
+  width: 10%;
+  height: 10vh;
+}
+
+div h1 {
+  width: 100%;
+  height: 20vh;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 1.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
